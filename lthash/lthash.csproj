@@ -3,6 +3,13 @@
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
         <RootNamespace>Lthash</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>pingpongsneak</Authors>
+        <Description>A C# implementation of LtHASH (Lattice Hash), a homomorphic hashing algorithm based on lattice cryptography.</Description>
+        <PackageProjectUrl>https://github.com/cypher-network/lthash</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/cypher-network/lthash/blob/main/LICENSE</PackageLicenseUrl>
+        <PackageIconUrl>https://github.com/cypher-network.png</PackageIconUrl>
+        <PackageTags>Lattice Hash homomorphic hashing</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
