@@ -27,7 +27,6 @@ namespace Lthash
         /// 
         /// </summary>
         /// <param name="inputs"></param>
-        /// <exception cref="NotImplementedException"></exception>
         public void Add(params byte[][] inputs)
         {
             ApplyInputsToChecksum(inputs);
@@ -37,7 +36,6 @@ namespace Lthash
         /// 
         /// </summary>
         /// <param name="inputs"></param>
-        /// <exception cref="NotImplementedException"></exception>
         public void Remove(params byte[][] inputs)
         {
             _isRemoving = true;
@@ -68,7 +66,6 @@ namespace Lthash
         /// 
         /// </summary>
         /// <param name="checksum"></param>
-        /// <exception cref="ArgumentException"></exception>
         public void SetChecksum(byte[] checksum)
         {
             if (checksum.Length != ChecksumSize)
@@ -151,7 +148,6 @@ namespace Lthash
         /// </summary>
         /// <param name="source"></param>
         /// <param name="destination"></param>
-        /// <exception cref="ArgumentOutOfRangeException"></exception>
         private static void DeepCopy(byte[] source, byte[] destination)
         {
             if (source.Length != destination.Length)
