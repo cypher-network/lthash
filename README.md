@@ -1,4 +1,7 @@
 # lthash
+
+This is not production quality code. It is full of bugs and not complete.
+
 A C# implementation of LtHASH (Lattice Hash), a homomorphic hashing algorithm based on lattice cryptography introduced by Mihir Bellare and Daniele Micciancio in [this paper](https://cseweb.ucsd.edu/~mihir/papers/inchash.pdf). This is a simplified C# porting of the [Facebook Folly C++ Library](https://github.com/facebook/folly/tree/master/folly/experimental/crypto) implementation of the algorithm introduced [here](https://code.fb.com/security/homomorphic-hashing/).
 
 ## Homomorphic Hashing
